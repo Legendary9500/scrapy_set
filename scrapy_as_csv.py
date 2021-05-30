@@ -5,6 +5,7 @@ import scrapy
 from scrapy.http import FormRequest
 from scrapy import signals
 
+
 def make_headers():
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
